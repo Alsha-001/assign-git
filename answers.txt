@@ -1,8 +1,8 @@
 What is a gitignore file and what should it include for a Java project?
-GItignore file contains the details for GIT to determine which types of files or directories to ignore. The details in the git ignore file, once committed to the repository, helps other users to have the same rules that clone the current repository. For a Java project it includes all types of compiled class files, Package Files and log files to ignore. Various files are *.log,*.jar,*.war,*.nar,*.ear, etc.
+Gitignore file contains the details for GIT to determine which types of files or directories to ignore. The details in the git ignore file, once committed to the repository, helps other users to have the same rules that clone the current repository. For a Java project it includes all types of compiled class files, Package Files and log files to ignore. Various files are *.log,*.jar,*.war,*.nar,*.ear, etc.
 What does fast-forward in Git mean?
 When we have branches to the remote branches and the changes to the checked out branch are not reflected in the remote branch, then during a merge, instead of staging all the changes GIT just points to the latest checked out branch than merging any changes, since there are no conflicts to fix, in a linear manner. This process is called fast forward.
 Why should you have different branches? 
 Different branches help multiple people working in a project, at different places, to focus on their task without being bothered about issues of other people in the task. Lastly all the different branches can be merged with the master branch to get the final updated copy of the project. In this way the multiple versions can be maintained, and conflicts can be avoided.
 In a project how many remote Git repositories do you usually have?
-A project can have multiple git repositories. There is no hard and fast rule to maintain the number of repositories in a project.
+A project usually has one remote Git repository but there is no hard and fast rule to maintain the number of repositories in a project.
